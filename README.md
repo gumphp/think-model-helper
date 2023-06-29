@@ -3,7 +3,7 @@
 ### 安装
 
 ~~~
-composer require yunwuxin/think-model-helper
+composer require gumphp/think-model-helper
 ~~~
 
 ### 使用方法

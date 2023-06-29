@@ -1,5 +1,5 @@
 {
-    "name": "yunwuxin/think-model-helper",
+    "name": "gumphp/think-model-helper",
     "description": "",
     "license": "Apache-2.0",
     "authors": [
@@ -9,9 +9,9 @@
         }
     ],
     "require": {
-        "topthink/framework": "^6.0",
+        "topthink/framework": "^6.1",
         "symfony/class-loader": "^2.3|^3.0",
-        "phpdocumentor/reflection-docblock": "^3.1",
+        "phpdocumentor/reflection-docblock": "^3.1|^5.0",
         "topthink/think-helper": "^3.0"
     },
     "require-dev": {
@@ -19,14 +19,14 @@
     },
     "autoload": {
         "psr-4": {
-            "yunwuxin\\model\\helper\\": "src"
+            "gumphp\\model\\helper\\": "src"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "think": {
             "services": [
-                "yunwuxin\\model\\helper\\Service"
+                "gumphp\\model\\helper\\Service"
             ]
         }
     }
